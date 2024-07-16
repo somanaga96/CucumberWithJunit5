@@ -22,9 +22,6 @@ public class MyStepdefs {
     @Given("^user logins to cricbuzz$")
     public void userLoginsToCricbuzz() throws InterruptedException {
         driver.get("https://www.cricbuzz.com/");
-
-//        Thread.sleep(5000);/**/
-//        driver.quit();
     }
 
 
